@@ -16,7 +16,7 @@ const projects =
 [
     {
         title: 'Gaming straming portal',
-        skills: 'React i dr',
+        skills: 'React i dr 1',
         img: project01,
         imgBig: project01Big,
         gitHubLink: "https://github.com/k1s1k?tab=repositories",
@@ -32,14 +32,14 @@ const projects =
     },
     {
         title: 'Video portal',
-        skills: 'React i dr',
+        skills: 'React i dr 4',
         img: project03,
         imgBig: project03Big,
         id: 3,
     },
     {
         title: 'Dating app',
-        skills: 'React i dr',
+        skills: 'React i dr 3',
         img: project04,
         imgBig: project04Big,
         id: 4,
@@ -54,7 +54,7 @@ const projects =
     },
     {
         title: 'Gaming community',
-        skills: 'React i dr',
+        skills: 'React i dr 5',
         img: project06,
         imgBig: project06Big,
         id: 6,

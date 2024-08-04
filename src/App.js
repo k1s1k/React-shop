@@ -2,7 +2,6 @@ import "./style/main.css"
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
@@ -19,10 +18,10 @@ function App() {
               <ScrollToTop/>
               <Navbar/>
                 <Routes>
-                    <Route exact path="/" element={<Home/>}/>
-                    <Route exact path="/projects" element={<Projects/>}/>
-                    <Route exact path="/project" element={<Project/>}/>
-                    <Route exact path="/contacts" element={<Contacts/>}/>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/project/:id" element={<Project/>}/>
+                    <Route path="/contacts" element={<Contacts/>}/>
                 </Routes>
               <Footer/>
           </Router>
